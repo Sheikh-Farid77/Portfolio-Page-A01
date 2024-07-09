@@ -369,14 +369,48 @@ input::placeholder{
 }
 input[type="submit"]{
     height: 40px;
-    width: 60px;
+    width: 70px;
     background-color: #fff;
     border: none;
     cursor: pointer;
     border-radius: 5px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: center;
     
 }
 
 /* support section end */
 
+/* footer section start */
+footer{
+    width: 100%;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.09);
+    margin-bottom: 50px;
+}
+.foot{
+    height: 100px;
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.left-foot{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+}
+.right-foot{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 
+
+/* footer section end */
