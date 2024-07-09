@@ -284,5 +284,30 @@ iframe{
     background: rgba(255, 223, 0, 0.05);
 }
 /* current target section end */
+/* next target section start */
+.next-target-section{
+    width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.next-target-section h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 18px;
+}
+.next-target-section p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 25px;
+}
+
+/* next target section end */
 
 
