@@ -181,7 +181,6 @@ nav{
 
 /* inspiration section start */
 .inspiration-section{
-    border: 2px solid red;
     width: 1140px;
     height: 875px;
     margin: 0 auto;
@@ -211,12 +210,79 @@ nav{
     border-radius: 16px;
 }
 iframe{
-   /* padding: 70px;  */
     display: block;
     margin: 0 auto;
     border-radius: 16px;
 }
 
 /* inspiration section end */
+/* current target section start */
+.current-target-section{
+    width: 1140px;
+    height: 400px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.current-target-section h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.current-target-section p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-one{
+    padding: 30px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05); 
+    width: 300px; 
+    height: 250px;
+}
+.pic{
+    margin-bottom: 12px;
+}
+.item-one h3{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+.item-one p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;opacity: 0.7;
+    margin-bottom: 12px;
+    text-align: left;
+}
+.item-one a{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+}
+.two{
+    background: rgba(0, 76, 232, 0.05);
+}
+.three{
+    background: rgba(255, 223, 0, 0.05);
+}
+/* current target section end */
 
 
